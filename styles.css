@@ -165,3 +165,20 @@ footer {
 #register-btn:hover {
     background-color: #D32F2F; /* رنگ مشکی */
 }
+.logo {
+    width: 50px; /* عرض لوگو */
+    height: auto; /* ارتفاع خودکار براساس عرض */
+    margin-left: auto; /* فاصله چپ لوگو را به صفر تنظیم کنید */
+    margin-right: 10px; /* فاصله راست لوگو */
+}
+@font-face {
+    font-family: 'AzarShiva';
+    src: url('BYekan+.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'AzarShiva', Arial, sans-serif;
+  }
+
