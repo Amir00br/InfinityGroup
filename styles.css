@@ -1,0 +1,134 @@
+/* ریست استایل‌های پیش‌فرض */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* استایل‌های سراسری */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    direction: rtl;
+}
+
+h1, h2, h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+/* استایل هدر */
+header {
+    background-color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* استایل ناوبری */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul li {
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px;
+}
+.nav ul li a:hover {
+    color: #FF0000; 
+  }
+
+/* استایل بخش‌ها */
+section {
+    padding: 40px;
+    background-color: #6b1616;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-size: 24px;
+}
+
+/* استایل اعضای تیم */
+
+.member {
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 20px;
+   text-align: center;
+   justify-content: center;
+}
+
+.member img {
+    width: 200px;
+    height: 100px;
+    border-radius: 20%;
+    margin-right:  20px;
+
+}
+.member h3 {
+    margin: 0;
+    color: #fff;
+   text-align: center;
+
+}
+
+/* استایل فرم تماس با ما */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form input[type="submit"] {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* استایل فوتر */
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+.social-icons a {
+    color: #333;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  .social-icons a:hover {
+    color: #FF0000; 
+  }
+  footer .social-icons {
+    text-align: center;
+    margin-top: 20px;
+  }
