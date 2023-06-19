@@ -140,11 +140,28 @@ footer {
     text-decoration: none;
     border-radius: 5px;
     font-weight: bold;
+    text-align: center;
+    justify-content: center;
 }
 
 .contact-button:hover {
-    background-color: #D32F2F;
+    background-color: #e68b8b;
 }
 #group-title {
     cursor: pointer;
+}
+#register-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F44336;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+}
+
+#register-btn:hover {
+    background-color: #D32F2F; /* رنگ مشکی */
 }
