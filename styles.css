@@ -132,3 +132,19 @@ footer {
     text-align: center;
     margin-top: 20px;
   }
+  .contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #F44336;
+    color: #FFFFFF;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.contact-button:hover {
+    background-color: #D32F2F;
+}
+#group-title {
+    cursor: pointer;
+}
